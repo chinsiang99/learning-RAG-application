@@ -14,3 +14,23 @@ RAG is best suited for the following:
 However, RAG is **not ideal** for tasks that require **complex multi-step reasoning**, **long-term planning**, or **deep deductive logic**. These tasks require more **sophisticated decision-making capabilities**, which are **better handled by agentic workflows**.
 
 In simpler terms, RAG **excels** at **finding** and **synthesizing** information quickly but may **struggle** with tasks that require **continuous**, **adaptive reasoning over many steps**. Agentic workflows, which involve more dynamic and autonomous systems, are better suited for handling these more intricate tasks.
+
+# Here are some examples of tasks/questions that DO NOT require or cannot be achieved with RAG:
+
+> Who was the first president of the United States?
+
+The information required to answer this question is very likely present in the parametric knowledge of most LLMs. Hence, this question can be answered using a simple prompt to an LLM.
+
+> How has the trend in the average daily calorie intake among adults changed over the last decade in the United States, and what impact might this have on obesity rates? Additionally, can you provide a graphical representation of the trend in obesity rates over this period?
+
+This question involves multiple sub-tasks such as data aggregation, visualization, and reasoning. Hence, this is a good use case for an AI agent rather than RAG.
+
+Here are some use cases for RAG:
+
+> What is the travel reimbursement policy for meals for my company?
+
+The information required to answer this question is most likely not present in the parametric knowledge of available LLMs. However, this question can easily be answered using RAG on a knowledge base consisting of your company's data.
+
+> Hi, I'm having trouble installing your software on my Windows 10 computer. It keeps giving me an error message saying 'Installation failed: Error code 1234'. How can I resolve this issue?
+
+Again, this question requires troubleshooting information for a specific software, the documentation for which might not be widely available, but can be solved using RAG.
