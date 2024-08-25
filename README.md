@@ -55,7 +55,10 @@ The information required to answer this question is most likely not present in t
 
 Again, this question requires troubleshooting information for a specific software, the documentation for which might not be widely available, but can be solved using RAG.
 
-# High Level Architetcure of 
+# High Level Architetcure of  RAG system
+<div align="center">
+  <img src="high-level-architecture.png" alt="Your Image Description" width="300"/>
+</div>
 
 # Components of a RAG system
 RAG systems have two main components: Retrieval and Generation.
